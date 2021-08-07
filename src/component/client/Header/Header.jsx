@@ -128,31 +128,31 @@ function Header(props) {
                                                     <p className="male-album-heading">MUA THEO BỘ SƯU TẬP</p>
                                                     <div className="male-album-wrap">
                                                         <div className="album-item col-2">
-                                                            <img src="/imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
+                                                            <img src="imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
                                                             <p className="album-item-name">KASHMIR</p>
                                                         </div>
                                                         <div className="album-item col-2">
-                                                            <img src="/imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
+                                                            <img src="imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
                                                             <p className="album-item-name">KASHMIR</p>
                                                         </div>
                                                         <div className="album-item col-2">
-                                                            <img src="/imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
+                                                            <img src="imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
                                                             <p className="album-item-name">KASHMIR</p>
                                                         </div>
                                                         <div className="album-item col-2">
-                                                            <img src="/imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
+                                                            <img src="imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
                                                             <p className="album-item-name">KASHMIR</p>
                                                         </div>
                                                         <div className="album-item col-2">
-                                                            <img src="/imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
+                                                            <img src="imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
                                                             <p className="album-item-name">KASHMIR</p>
                                                         </div>
                                                         <div className="album-item col-2">
-                                                            <img src="/imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
+                                                            <img src="imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
                                                             <p className="album-item-name">KASHMIR</p>
                                                         </div>
                                                         <div className="album-item col-2">
-                                                            <img src="/imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
+                                                            <img src="imgClient/Kashmir_2000px_1x1.png" alt="" className="album-item-img" />
                                                             <p className="album-item-name">KASHMIR</p>
                                                         </div>
                                                     </div>
@@ -160,7 +160,7 @@ function Header(props) {
                                                 </div>
                                                 <div className="male-newArrival col-1">
                                                     <a href className="male-newArrival-link">
-                                                        <img src="/imgClient/FuturaNewArrival.jpg" alt="" className="male-newArrival-img" />
+                                                        <img src="imgClient/FuturaNewArrival.jpg" alt="" className="male-newArrival-img" />
                                                         <div className="male-newArrival-link-wrap">
                                                             <p className="male-newArrival-link-text">New Arrivals
                                                             </p>
@@ -170,7 +170,7 @@ function Header(props) {
                                                 </div>
                                                 <div className="male-bestSeller col-1">
                                                     <a href className="male-bestSeller-link">
-                                                        <img src="/imgClient/MenBestSeller.jpg" alt="" className="male-img" />
+                                                        <img src="imgClient/MenBestSeller.jpg" alt="" className="male-img" />
                                                         <div className="male-bestSeller-link-wrap">
                                                             <p className="male-bestSeller-link-text">Men's Best Sellers
                                                             </p>
@@ -183,7 +183,7 @@ function Header(props) {
                                         <div className="header-left-body-content">
                                             <div className="onsale">
                                                 <div className="onsale-picture">
-                                                    <img src="/imgClient/sale_menu_image_b80d63f0c8.jpg" alt="" className="onsale-img" />
+                                                    <img src="imgClient/sale_menu_image_b80d63f0c8.jpg" alt="" className="onsale-img" />
                                                 </div>
                                                 <div className="onsale-sale">
                                                     <p className="onsale-sale-text">
@@ -207,7 +207,7 @@ function Header(props) {
                 <div className="header-logo">
                     <Link to="/">
                         <a className="header-logo__link">
-                            <img src="/imgClient/logo-mWb.svg" alt="" className="header-logo__img" />
+                            <img src="imgClient/logo-mWb.svg" alt="" className="header-logo__img" />
                         </a>
                     </Link>
                 </div>

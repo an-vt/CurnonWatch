@@ -17,7 +17,7 @@ function Banner(props) {
                 </div>
                 <a href="" className="banner-des__link">KHÁM PHÁ NGAY</a>
             </div>
-            <img src="${process.env.PUBLIC_URL}/imgClient/banner_kashmir_desktop-8bo.jpg" alt="Banner" className="banner-img" />
+            <img src="imgClient/banner_kashmir_desktop-8bo.jpg" alt="Banner" className="banner-img" />
         </div>
     );
 }

@@ -234,7 +234,7 @@ function Checkout(props) {
                                             <p className="checkout-pay-subheading">Trả góp kì hạn 3 tháng</p>
                                         </div>
                                         <div className="checkout-pay-right">
-                                            <img className="checkout-pay-right-img" src="/imgClient/fundiin-p2H.png" />
+                                            <img className="checkout-pay-right-img" src="imgClient/fundiin-p2H.png" />
                                         </div>
                                     </div>
                                 </div>

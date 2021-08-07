@@ -12,7 +12,7 @@ function Story(props) {
                 <div className="row">
                     <div className="col story-content">
                         <span className="story-logo">
-                            <img src="/imgClient/logo_small-2Xe.svg" alt="" className="story-logo__img" />
+                            <img src="imgClient/logo_small-2Xe.svg" alt="" className="story-logo__img" />
                         </span>
                         <h1 className="story-heading">THE STORY OF CURNON</h1>
                         <p className="story-des">Cuối năm 2016, 3 chàng trai đam mê Startup và Đồng hồ quyết định thành
@@ -24,7 +24,7 @@ function Story(props) {
                             cho người trẻ.
                         </p>
                         <div className="story-picture">
-                            <img src="/imgClient/storyLarge-8J9.png" alt="" className="story-img" />
+                            <img src="imgClient/storyLarge-8J9.png" alt="" className="story-img" />
                         </div>
                     </div>
                 </div>

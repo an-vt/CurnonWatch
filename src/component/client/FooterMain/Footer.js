@@ -39,7 +39,7 @@ function Footer(props) {
                     </div>
                 </div>
                 <div className="col-1">
-                    <img src="/imgClient/part_of_curnon_3-4DR.jpg" alt="" className="community-slider" />
+                    <img src="imgClient/part_of_curnon_3-4DR.jpg" alt="" className="community-slider" />
                 </div>
             </div>
             <div className="service">
@@ -166,9 +166,9 @@ function Footer(props) {
                             </div>
                             <div className="footer-right col-1">
                                 <div className="footer-right-logo">
-                                    <img src="/imgClient/momo-logo.png" alt="Momo logo" className="footer-right__img logo-momo" />
-                                    <img src="/imgClient/vnpay-logo.png" alt="Vnpay logo" className="footer-right__img logo-vnpay" />
-                                    <img src="/imgClient/bct.png" alt="BCT logo" className="footer-right__img " />
+                                    <img src="imgClient/momo-logo.png" alt="Momo logo" className="footer-right__img logo-momo" />
+                                    <img src="imgClient/vnpay-logo.png" alt="Vnpay logo" className="footer-right__img logo-vnpay" />
+                                    <img src="imgClient/bct.png" alt="BCT logo" className="footer-right__img " />
                                 </div>
                             </div>
                         </div>

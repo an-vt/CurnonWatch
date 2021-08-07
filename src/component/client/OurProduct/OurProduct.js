@@ -12,7 +12,7 @@ function OurProduct(props) {
                 <div className="row our-prouduct-row">
                     <div className="col out-product-wrap">
                         <div className="our-product__picture">
-                            <img src="/imgClient/bg1-wuA.jpg" alt="" className="our-product__img" />
+                            <img src="imgClient/bg1-wuA.jpg" alt="" className="our-product__img" />
                         </div>
                         <div className="product-info">
                             <div className="product-info__heading">SẢN PHẨM CỦA CHÚNG TÔI</div>
