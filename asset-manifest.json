@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CurnonWatch/static/css/main.84737be1.chunk.css",
-    "main.js": "/CurnonWatch/static/js/main.a5cb568e.chunk.js",
-    "main.js.map": "/CurnonWatch/static/js/main.a5cb568e.chunk.js.map",
+    "main.css": "/CurnonWatch/static/css/main.0e308ab0.chunk.css",
+    "main.js": "/CurnonWatch/static/js/main.92869732.chunk.js",
+    "main.js.map": "/CurnonWatch/static/js/main.92869732.chunk.js.map",
     "runtime-main.js": "/CurnonWatch/static/js/runtime-main.562a00b5.js",
     "runtime-main.js.map": "/CurnonWatch/static/js/runtime-main.562a00b5.js.map",
     "static/js/2.06c6f5d5.chunk.js": "/CurnonWatch/static/js/2.06c6f5d5.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1d1c7bef.chunk.js": "/CurnonWatch/static/js/3.1d1c7bef.chunk.js",
     "static/js/3.1d1c7bef.chunk.js.map": "/CurnonWatch/static/js/3.1d1c7bef.chunk.js.map",
     "index.html": "/CurnonWatch/index.html",
-    "static/css/main.84737be1.chunk.css.map": "/CurnonWatch/static/css/main.84737be1.chunk.css.map",
+    "static/css/main.0e308ab0.chunk.css.map": "/CurnonWatch/static/css/main.0e308ab0.chunk.css.map",
     "static/js/2.06c6f5d5.chunk.js.LICENSE.txt": "/CurnonWatch/static/js/2.06c6f5d5.chunk.js.LICENSE.txt",
     "static/media/style.css": "/CurnonWatch/static/media/cmu-siN.e9cc7326.jpg",
     "static/media/font-awesome.min.css": "/CurnonWatch/static/media/fontawesome-webfont.f7f1738c.woff",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.562a00b5.js",
     "static/js/2.06c6f5d5.chunk.js",
-    "static/css/main.84737be1.chunk.css",
-    "static/js/main.a5cb568e.chunk.js"
+    "static/css/main.0e308ab0.chunk.css",
+    "static/js/main.92869732.chunk.js"
   ]
 }
