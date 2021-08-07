@@ -53,13 +53,13 @@ function App() {
     console.log("product" ,product)
     //create item add to cart
     const item = {
-      _id: product._id,
+      id: product.id,
       name: product.name,
       description: product.description,
       quantity: 1,
       price: product.price,
       image: product.image,
-      category: product.category
+      category: product.categoryDTO
     }
     let newArr = []
     if (cartList.length < 1) {
@@ -71,7 +71,7 @@ function App() {
     } else {
       let quantityCartCurrent = 0;
       cartList.map(cartItem => {
-        if (item._id === cartItem._id) {
+        if (item.id == cartItem.id) {
           item.quantity = item.quantity + cartItem.quantity
         } else {
           quantityCartCurrent += cartItem.quantity
@@ -95,7 +95,7 @@ function App() {
     
     let idProduct = event.target.getAttribute('idProduct')
     cartList.forEach((cartItem, index) => {
-      if (idProduct == cartItem._id) {
+      if (idProduct == cartItem.id) {
         console.log('da xoa')
         cartList.splice(index, 1);
       }
