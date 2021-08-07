@@ -10,7 +10,7 @@ function Footer(props) {
         <div className="footer">
             <div className="community">
                 <div className="col-1">
-                    <img src="/imgClient/part_of_curnon_1-mCk.jpg" alt="" className="community-slider" />
+                    <img src="../../../assets/client/img/part_of_curnon_1-mCk.jpg" alt="" className="community-slider" />
                 </div>
                 <div className="col-2">
                     <div className="slider-center">
