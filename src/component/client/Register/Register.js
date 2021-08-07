@@ -36,7 +36,7 @@ function Register(props) {
         };
 
         try {
-            let response = await fetch("https://api-curnon-springbooot.herokuapp.com/api/user/register", requestOptions)
+            let response = await fetch("https://api-curnon-springbooot.herokuapp.com/api/register", requestOptions)
             if (response.ok) {
                 let result = await response.json()
                 console.log(result)
