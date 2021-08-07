@@ -11,7 +11,7 @@ function CategoryCard(props) {
             <div className="categoryCard-list">
                 <div className="categoryCard-wrap">
                     <div className="categoryCard__item">
-                        <a href className="categoryCard__link">
+                        <a href="" className="categoryCard__link">
                             <div className="categoryCard__img" style={{ backgroundImage: 'url(imgClient/dong-ho-nam-category.webp)' }} />
                             <div className="categoryCard__content">
                                 <h4 className="categoryCard__heading">ĐỒNG HỒ NAM</h4>

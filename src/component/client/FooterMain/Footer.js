@@ -19,17 +19,17 @@ function Footer(props) {
                             <p className="slider-center__des">Ai nói bạn không thể lựa chọn gia đình?</p>
                             <ul className="slider-center__socials">
                                 <li className="slider-center__item">
-                                    <a href className="slider-center__link">
+                                    <a href="" className="slider-center__link">
                                         <i className="slider-center__icon ti-facebook" />
                                     </a>
                                 </li>
                                 <li className="slider-center__item">
-                                    <a href className="slider-center__link">
+                                    <a href="" className="slider-center__link">
                                         <i className="slider-center__icon ti-instagram" />
                                     </a>
                                 </li>
                                 <li className="slider-center__item">
-                                    <a href className="slider-center__link">
+                                    <a href="" className="slider-center__link">
                                         <i className="slider-center__icon ti-youtube" />
                                     </a>
                                 </li>
