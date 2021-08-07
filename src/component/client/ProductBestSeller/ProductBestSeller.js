@@ -32,7 +32,7 @@ function ProductBestSeller(props) {
                                 <Link to={`/product/${product.id}`} className="bestseller__item">
                                     <img src={"https://api-curnon-springbooot.herokuapp.com/api/download/"+product.image} alt="" className="bestseller__img" />
                                     <span className="bestseller__type">{product.name}</span>
-                                    <span className="bestseller__price-current">{product.price} <span className="bestseller__unit">đ</span></span>
+                                    <span className="bestseller__price-current">{product.price.toLocaleString({ minimumFractionDigits: 0 })}<span className="bestseller__unit">đ</span></span>
                                     <span className="bestseller__detail">XEM SẢN PHẨM</span>
                                 </Link>
                             </div>

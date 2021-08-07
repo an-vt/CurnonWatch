@@ -269,7 +269,7 @@ function Checkout(props) {
                                                 </div>
                                             </div>
                                             <div className="order-item-price">
-                                                <p className="order-item-price-current">{cartItem.price}
+                                                <p className="order-item-price-current">{cartItem.price.toLocaleString({ minimumFractionDigits: 0 })}
                                                     <span className="order-item-price-current-unit">đ</span>
                                                 </p>
                                                 {/* <p className="order-item-price-old">3.099.000
@@ -290,19 +290,19 @@ function Checkout(props) {
                             </form>
                             <div className="order-sub-total">
                                 <span className="order-sub-total__text">Thành tiền</span>
-                                <span className="order-sub-total__price">{totalPrice}
+                                <span className="order-sub-total__price">{totalPrice.toLocaleString({ minimumFractionDigits: 0 })}
                                     <span className="order-sub-total__unit">đ</span>
                                 </span>
                             </div>
                             <div className="order-coupon-detail">
                                 <span className="order-coupon-detail__text">Mã giảm giá</span>
-                                <span className="order-coupon-detail__price">{isCoupon ? '-' + (totalPrice * (counpon.present / 100)) : 0}
+                                <span className="order-coupon-detail__price">{isCoupon ? '-' + ((totalPrice * (counpon.present / 100))).toLocaleString({ minimumFractionDigits: 0 }) : 0}
                                     <span className="order-coupon-detail__unit">đ</span>
                                 </span>
                             </div>
                             <div className="order-total">
                                 <span className="order-total__text">Tổng</span>
-                                <span className="order-total__price">{isCoupon ? totalPrice - (totalPrice * (counpon.present / 100)) : totalPrice}
+                                <span className="order-total__price">{isCoupon ? (totalPrice - (totalPrice * (counpon.present / 100))).toLocaleString({ minimumFractionDigits: 0 }) : totalPrice.toLocaleString({ minimumFractionDigits: 0 })}
                                     <span className="order-total__unit">đ</span>
                                 </span>
                             </div>

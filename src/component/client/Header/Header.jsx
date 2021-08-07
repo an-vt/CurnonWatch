@@ -277,7 +277,7 @@ function Header(props) {
                                                                     <input type="number" value={cartItem.quantity} onChange={handleChangeQuantity} min="1" className="cart-productList-quantity" />
                                                                     <span className="cart-productList__multiplication">x</span>
                                                                     <div className="cart-productList-price">
-                                                                        <p className="cart-productList__price-current">{cartItem.price}
+                                                                        <p className="cart-productList__price-current">{cartItem.price.toLocaleString({ minimumFractionDigits: 0 })}
                                                                             <span className="cart-productList__price-unit">đ</span>
                                                                         </p>
                                                                         {/* <p className="cart-productList__price-old">3.099.000
@@ -297,9 +297,10 @@ function Header(props) {
                                                 <div className="cart-productList-total">
                                                     <span className="cart-productList-total__text">thành tiền</span>
                                                     <span className="cart-productList-total__total-price">
-                                                        {carts.length > 0 ? carts.reduce((initValue ,cartItem) => {
+                                                        {carts.length > 0 ? (carts.reduce((initValue ,cartItem) => {
                                                             return initValue + ( parseInt(cartItem.price) * parseInt(cartItem.quantity) )
-                                                        } ,0) : 0}
+                                                        } ,0)).toLocaleString({ minimumFractionDigits: 0 }) : 0}
+                                                        
                                                         <span className="cart-productList-total__total-unit">đ</span>
                                                     </span>
                                                 </div>

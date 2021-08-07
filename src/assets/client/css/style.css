@@ -918,6 +918,10 @@
     margin-bottom: 70px;
 }
 
+.bestseller__link:hover {
+    color: var(--black-color);
+}
+
 .bestseller__link > i {
     margin-left: 6px;
 }
