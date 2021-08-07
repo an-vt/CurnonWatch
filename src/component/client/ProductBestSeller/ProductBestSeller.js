@@ -20,10 +20,12 @@ function ProductBestSeller(props) {
             <div className="bestseller-men">
                 <div className="grid wide">
                     <h1 className="bestseller__heading">MEN'S BEST SELLERS</h1>
-                    <a href="" className="bestseller__link">
-                        KHÁM PHÁ THÊM
-                        <i className="ti-arrow-right" />
-                    </a>
+                    <div className="bestseller__sub-heading">
+                        <a href="" className="bestseller__link">
+                            KHÁM PHÁ THÊM
+                            <i className="ti-arrow-right" />
+                        </a>
+                    </div>
                     <div className="row">
                         {products.map(product => {
                             return <div key={product._id} className="col l-3">

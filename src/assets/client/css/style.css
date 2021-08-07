@@ -903,6 +903,11 @@
     text-align: center;
 }
 
+.bestseller__sub-heading {
+    display: flex;
+    justify-content: center;
+}
+
 .bestseller__link {
     display: inline-block;
     text-decoration: none;
@@ -1844,7 +1849,7 @@
 
 .checkout-pay-left-icon {
     font-size: 1.4rem;
-    margin-left: 1px;
+    margin-left: 5px;
 }
 
 .checkout-pay__heading {
@@ -2043,7 +2048,7 @@
     padding: 15px;
     font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .order-coupon-btn {
@@ -2056,6 +2061,7 @@
     margin: 0;
     cursor: pointer;
     float: right;
+    border: 1px solid var(--black-color);
 }
 
 .order-coupon-detail,
