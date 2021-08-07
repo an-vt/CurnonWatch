@@ -1143,6 +1143,7 @@
     margin-bottom: 12px;
     color: #c1c1c1;
     border: none;
+    outline: none;
     background-color: transparent;
     text-align: left;
 }
