@@ -40,6 +40,7 @@ function Register(props) {
             if (response.ok) {
                 let result = await response.json()
                 console.log(result)
+                alert('Đăng kí thành công!')
             }
         } catch (error) {
             console.log('register error', error)
