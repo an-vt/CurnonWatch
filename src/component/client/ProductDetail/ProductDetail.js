@@ -61,7 +61,7 @@ export default function ProductDetail(props) {
                                     {/* <p className="product-detail__name">DETROIT - 40MM</p> */}
                                     <span className="product-detail__code">{product.name}</span>
                                     <div className="product-detail__wrap">
-                                        <p className="product-detail__price">{product.price ? product.price.toLocaleString({ minimumFractionDigits: 0 }) : '' } <span className="product-detail__price-unit">đ</span></p>
+                                        <p className="product-detail__price">{product.price && product.price >= 0 ? product.price.toLocaleString({ minimumFractionDigits: 0 }) : '' } <span className="product-detail__price-unit">đ</span></p>
                                         <p className="product-detail__review">
                                             <span className="product-detail__review-text">0 đánh giá</span>
                                             <span className="product-detail__star">
