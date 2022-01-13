@@ -24,11 +24,6 @@ export default class Product extends React.Component {
 
   loadProduct = async () => {
     var myHeaders = new Headers();
-    myHeaders.append(
-      "Authorization",
-      "Bearer " + localStorage.getItem("accessToken")
-    );
-    myHeaders.append("Content-Type", "application/json");
 
     var raw = JSON.stringify({
       search: this.state.search,
@@ -45,7 +40,7 @@ export default class Product extends React.Component {
 
     try {
       let response = await fetch(
-        "https://api-curnon-springbooot.herokuapp.com/api/admin/product/search",
+        "https://api-curnon-springbooot.herokuapp.com/api/product/search",
         requestOptions
       );
       if (response.ok) {
