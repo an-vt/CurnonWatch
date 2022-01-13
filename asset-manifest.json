@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CurnonWatch/static/css/main.5ec33ddd.chunk.css",
-    "main.js": "/CurnonWatch/static/js/main.9a6ef1c5.chunk.js",
-    "main.js.map": "/CurnonWatch/static/js/main.9a6ef1c5.chunk.js.map",
+    "main.css": "/CurnonWatch/static/css/main.a6d76f7b.chunk.css",
+    "main.js": "/CurnonWatch/static/js/main.682c6605.chunk.js",
+    "main.js.map": "/CurnonWatch/static/js/main.682c6605.chunk.js.map",
     "runtime-main.js": "/CurnonWatch/static/js/runtime-main.562a00b5.js",
     "runtime-main.js.map": "/CurnonWatch/static/js/runtime-main.562a00b5.js.map",
     "static/js/2.06c6f5d5.chunk.js": "/CurnonWatch/static/js/2.06c6f5d5.chunk.js",
@@ -10,16 +10,16 @@
     "static/js/3.1d1c7bef.chunk.js": "/CurnonWatch/static/js/3.1d1c7bef.chunk.js",
     "static/js/3.1d1c7bef.chunk.js.map": "/CurnonWatch/static/js/3.1d1c7bef.chunk.js.map",
     "index.html": "/CurnonWatch/index.html",
-    "static/css/main.5ec33ddd.chunk.css.map": "/CurnonWatch/static/css/main.5ec33ddd.chunk.css.map",
+    "static/css/main.a6d76f7b.chunk.css.map": "/CurnonWatch/static/css/main.a6d76f7b.chunk.css.map",
     "static/js/2.06c6f5d5.chunk.js.LICENSE.txt": "/CurnonWatch/static/js/2.06c6f5d5.chunk.js.LICENSE.txt",
     "static/media/style.css": "/CurnonWatch/static/media/cmu-siN.e9cc7326.jpg",
     "static/media/font-awesome.min.css": "/CurnonWatch/static/media/fontawesome-webfont.f7f1738c.woff",
-    "static/media/themify-icons.css": "/CurnonWatch/static/media/themify.f0fc8c79.svg"
+    "static/media/themify-icons.css": "/CurnonWatch/static/media/themify.eda8b943.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.562a00b5.js",
     "static/js/2.06c6f5d5.chunk.js",
-    "static/css/main.5ec33ddd.chunk.css",
-    "static/js/main.9a6ef1c5.chunk.js"
+    "static/css/main.a6d76f7b.chunk.css",
+    "static/js/main.682c6605.chunk.js"
   ]
 }
